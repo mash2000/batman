@@ -61,3 +61,33 @@ body {
 body {
   background: url('../img/background.jpg') no-repeat;
 }
+
+.footer {
+  background: #000000;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu {
+  display: flex;
+  padding-left: 0;
+}
+
+.footer__menu li {
+  list-style: none;
+}
+
+.footer__menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__menu li:not(:last-child) {
+  margin-right: 2.5rem;
+}
